@@ -1,3 +1,9 @@
+import pandas as pd
+import numpy as np
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+
+
 from flask import Flask, request, jsonify
 
 from flask_restful import Resource, Api
@@ -7,11 +13,6 @@ from sqlalchemy import create_engine
 from json import dumps
 
 
-
-import pandas as pd
-import numpy as np
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
 
 
 app = Flask(__name__)
