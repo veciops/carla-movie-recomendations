@@ -88,7 +88,7 @@ class Filters(Resource):
         filters["title"] = (df["title"].unique()).tolist()
         filters["cast"] = (df["cast"].unique()).tolist()
         filters["country"] = (df["country"].unique()).tolist()
-        filters["release_year"] = (str(df["release_year"]).unique()).tolist()
+        filters["release_year"] = ((df["release_year"]).unique()).tolist()
         filters["director"] = (df["director"].unique()).tolist()
         filters["listed_in"] = (df["listed_in"].unique()).tolist()
         filters["duration"] = (df["duration"].unique()).tolist()
