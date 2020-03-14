@@ -38,7 +38,7 @@ class Filters(Resource):
 
 
 api.add_resource(Recommendations, '/recommendations')
-api.add_resource(Filters, '/filters')
+api.add_resource(Filters, '/filters' )
 
 if __name__ == '__main__':
     app.run()
