@@ -49,6 +49,9 @@ Método: GET Parâmetros: Nenhum parâmetro é necessário
 
 ## Sistema de Recomendação de Filmes
 
+
+Esse tipo de sistema de recomendação captura um filme que um usuário gosta atualmente como entrada. Em seguida, analisa o conteúdo (título, ano, diretor, etc.) do filme para descobrir outros filmes com conteúdo semelhante. Em seguida, classifica filmes semelhantes de acordo com suas pontuações de similaridade e recomenda os filmes mais relevantes para o usuário.
+
 O sistema foi construído com base no algoritmo [KNN](https://www.linkedin.com/pulse/aplica%C3%A7%C3%A3o-pr%C3%A1tica-em-python-do-algoritmo-k-nearest-knn-rober-junior) e em um conjunto de dados de características de filmes baixados do  [Kaggle](https://www.kaggle.com/shivamb/netflix-shows) . Para construir o projeto, foi usada a implementação do KNN existente na biblioteca [scikit-learn](https://scikit-learn.org/stable/modules/neighbors.html).
 
 ## Aplicativo Cliente
