@@ -54,7 +54,7 @@ Método: GET Params: Nenhum parâmetro é necessário
 
 Sistema de recomendação de filmes
 
-O sistema foi construído com base no algoritmo KNN e em um conjunto de dados de características de filmes baixados do Kaggle . Para construir o projeto, foi usada a implementação do KNN existente na biblioteca scikit-learn .
+O sistema foi construído com base no algoritmo [KNN](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) e em um conjunto de dados de características de filmes baixados do Kaggle . Para construir o projeto, foi usada a implementação do KNN existente na biblioteca scikit-learn .
 
 Aplicativo Cliente
 
