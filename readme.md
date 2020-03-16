@@ -57,7 +57,7 @@ Para representar as recomendações para um usuário, um aplicativo da web foi d
 
 ## A implantação
 
-Para implantar, a plataforma Heroku foi usada. Abaixo os URLs da API e do aplicativo Cliente são informados.
+Para implantar, a plataforma [Heroku](https://www.heroku.com/) foi usada. Abaixo os URLs da API e do aplicativo Cliente são informados.
 
 ## API:
 
