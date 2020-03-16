@@ -10,6 +10,7 @@ Uma API responsável retornando uma lista de recomendações e uma lista de filt
 A API contém as seguintes rotas:
 
 / Recommendations
+
 Essa rota retorna uma lista de recomendações com base em uma lista de filtros informados nos parâmetros da string de consulta. Abaixo, um exemplo de uma string de consulta é informado.
 
 Método: GET Params:
@@ -52,12 +53,15 @@ filters["title"] = (df["title"].unique()).tolist()
 Método: GET Params: Nenhum parâmetro é necessário
 
 Sistema de recomendação de filmes
+
 O sistema foi construído com base no algoritmo KNN e em um conjunto de dados de características de filmes baixados do Kaggle . Para construir o projeto, foi usada a implementação do KNN existente na biblioteca scikit-learn .
 
 Aplicativo Cliente
+
 Para representar as recomendações para um usuário, um aplicativo da web foi desenvolvido. Onde, o usuário pode selecionar muitos filtros (com base no conteúdo do conjunto de dados) e, após um clique em "Filtro", a API retorna uma lista de recomendações com base nas preferências do usuário ou nula (quando nada atinge o Preferências de usuário).
 
 A implantação
+
 Para implantar, a plataforma Heroku foi usada. Abaixo os URLs da API e do aplicativo Cliente são informados.
 
 API:
