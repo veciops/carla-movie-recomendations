@@ -1,8 +1,10 @@
 Sistema de Recomendação de filmes
 
 
+Estutura do projeto:
 
 API
+
 Uma API responsável retornando uma lista de recomendações e uma lista de filtros a serem usados ​​no aplicativo cliente.
 
 A API contém as seguintes rotas:
