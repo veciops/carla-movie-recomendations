@@ -1,1 +1,1 @@
-web: pip install -r requirements.txt && python recomendacao.py
+web: python recomendacao.py
